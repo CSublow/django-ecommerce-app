@@ -1,6 +1,6 @@
 language: python
 python:
-= "3.4"
+- "3.4"
 # Tell travis which packages to install, so well tell it to install everything in requirements.txt
 install: "pip install -r requirements.txt"
 # You give it a dummy secret key because it has no idea what your actual secret key is
