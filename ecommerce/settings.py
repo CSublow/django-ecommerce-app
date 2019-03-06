@@ -28,7 +28,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME')]
+ALLOWED_HOSTS = [os.environ.get('C9_HOSTNAME'), "dhamma-django-ecommerce-app.herokuapp.com"]
 
 
 # Application definition
